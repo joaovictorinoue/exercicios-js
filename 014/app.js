@@ -1,6 +1,6 @@
-function Idade(){
-    let data = document.getElementById('data').value
-    data = new Date(date);
+function Idade() {
+    let dia = document.getElementById('data').value
+    const mes = new Date(dia);
 
-    document.getElementById('mostra').innerHTML = document.write ("Hoje é " + date.getDay() + ", " + date.getDate() + " de " + date.getMonth() + " de " + date.getFullYear() )
+    document.getElementById('mostra').innerHTML = mes
 }
