@@ -1,6 +1,13 @@
-function Idade() {
-    let dia = document.getElementById('data').value
-    const mes = new Date(dia);
+function verificarData(){
 
-    document.getElementById('mostra').innerHTML = mes
+    var data = document.getElementById("txtData").value;
+
+    data = data.split("/");
+
+    document.write("Dia: "+data[0]+"<br>");
+
+    document.write("Mês: "+data[1]+"<br>");
+
+    document.write("Ano: "+data[2]+"<br>");
+
 }
